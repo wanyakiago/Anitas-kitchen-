@@ -13,7 +13,7 @@ Although there are currently no known bugs, this is a very recent build hence th
 ### License
 MIT License
 
-Copyright (c) 2018 james macharia
+Copyright (c) 2018 james Macharia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
