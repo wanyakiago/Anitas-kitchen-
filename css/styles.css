@@ -1,0 +1,318 @@
+.container {
+  padding:0;
+  margin: 0;
+  width: 100%;
+}
+.row {
+  margin: 0%;
+}
+.timess{
+  float: right;
+  color: black;
+  font-size: 8vh;
+}
+#zeroth{
+  background-color: #F15A29;
+  height: 100vh;
+  display: none;
+  width: 100vw;
+}
+#zeroth div{
+  padding-top: 32vh;
+}
+#zeroth div a{
+  font-size: 10vh;
+  text-align: center;
+  display: block;
+  color: black;
+  text-decoration:none;
+}
+#zeroth div a:hover{
+  color:white;
+}
+.sidebar{
+  float: left;
+  font-size: 7vh;
+  padding:2vh;
+}
+#first {
+  text-align: center;
+  background: url('../assets/backgrounds/landing.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+#first-first {
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 24pt;
+}
+#first-first div span {
+  display: block;
+}
+#first-first div img {
+  padding-right: 9vh;
+}
+#first-first div{
+  padding-top:20vh;
+}
+#second{
+  font-family: 'Merriweather', sans-serif;
+  font-size: 29px;
+  height: 32vh;
+}
+#first-second{
+  height: 100%;
+  padding-right: 0px;
+  text-align: center;
+  font-size: 23px;
+}
+#happy{
+  color: black;
+  display: block;
+  vertical-align: middle;
+  line-height: 16vh;
+  height: 50%;
+}
+#party{
+  background-color: #F15A29;
+  color: white;
+  display: block;
+  vertical-align: middle;
+  line-height: 16vh;
+  height: 50%;
+}
+#second-second{
+  background-image: url('../assets/foodtop/breakfast.jpg');
+  background-size:cover;
+  height: 100%;
+  font-style: italic;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding: 12.3vh;
+}
+#third-second{
+  background-image: url('../assets/foodtop/lunch.jpg');
+  background-size:cover;
+  height: 100%;
+  font-style: italic;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding: 12.3vh;
+}
+#fourth-second{
+  background-image: url('../assets/foodtop/dinner.jpg');
+  background-size:cover;
+  height: 100%;
+  font-style: italic;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding: 12.3vh;
+}
+.meal:hover{
+  color: black!important;
+  opacity: 0.3;
+}
+#third{
+  margin: 10%;
+}
+#first-third{
+  border: solid;
+  padding:2%;
+  border-width: 0px;
+  box-shadow: 0px 0px 20px 3px #ddd;
+}
+#first-third img {
+  width:100%;
+}
+#second-third p {
+  font-size:20px;
+}
+#second-third div {
+  padding-left: 8vh;
+  text-align:left;
+}
+
+#fourth{
+  margin: 10%;
+}
+#second-fourth{
+  border: solid;
+  padding:2%;
+  border-width: 0px;
+  box-shadow: 0px 0px 20px 3px #ddd;
+}
+#second-fourth img {
+  width:50%;
+  float: left;
+}
+#first-fourth div {
+  padding-right: 8vh;
+  text-align:right;
+}
+.View {
+  display: inline-block;
+  background-color: white;
+  color: #F15A29;
+  border-color: #F15A29;
+  border: solid;
+  border-width: 1px;
+  font-size: 3vh;
+  padding: 2vh;
+  border-radius: 5px;
+  margin-top: 2vh;
+}
+.View:hover{
+  background-color: #F15A29;
+  border-color: white;
+  color: white;
+}
+#first-fourth p {
+  font-size:20px;
+}
+#fifth{
+  margin: auto;
+  background-image: url('../assets/backgrounds/foodsBg.jpg');
+
+}
+.table-menu-data {
+  color: #F15A29;
+}
+.table-menu {
+  padding:10%;
+  padding-bottom: 5%
+}
+.option {
+  background-color: #ddd;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  padding-top: 1.4vh;
+  padding-bottom: 1.4vh;
+}
+.option:hover{
+  background-color: #ccc;
+}
+.active:hover{
+  background-color: white;
+}
+.active {
+  background-color: white;
+  border-bottom-color: white;
+  border-left-color:white;
+}
+.option span{
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-content: center;
+}
+.table-menu-data div {
+  background: white;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+.table-menu-data div img{
+  width: 90%;
+  display: inline-block;
+}
+.table-menu .active span{
+  text-align: center;
+  font-weight: bold;
+  color: #F15A29;
+}
+.table-menu .option span{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.7vh;
+}
+.table-menu-data div span{
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5vh;
+  color: #F15A29;
+}
+.arrow{
+  width: 5%;
+  display: inline-block!important;
+  font-size:3vh!important;
+  color: #F15A29;
+}
+#sixth .row{
+  margin: 2% 7%;
+  padding:40px;
+  text-align: center;
+  border: solid;
+  border-color: #ddd;
+  border-width: 1px;
+  box-shadow: 0px 0px 20px 3px #ddd;
+}
+#sixth div div h4 {
+  color: #F15A29;
+  font-weight: bold;
+}
+#sixth div .about{
+  border-left: solid;
+  border-color: #ddd;
+  border-width: 1px;
+}
+#sixth div div span{
+  color: #F15A29;
+  font-size: 2vh;
+}
+#seventh {
+  padding:5%;
+  background-image: url('../assets/backgrounds/subscribe.jpg');
+  text-align: center;
+}
+#seventh h3{
+  color: white;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+#seventh input{
+  opacity: 0.6;
+  border-width: 0px;
+  font-size: 25px;
+}
+#seventh button{
+  border-width: 0px;
+  font-size: 25px;
+}
+#seventh .mailto{
+  padding-bottom: 5vh;
+}
+#seventh input::placeholder{
+  opacity: 1.0;
+}
+#seventh .submit{
+  display: inline;
+  margin-left:2%;
+  background-color: #F15A29;
+  font-weight: bold;
+  opacity: 1;
+  color: white;
+  border-radius: 4px;
+}
+#eighth{
+  background-color: #F15A29;
+  text-align: center;
+}
+#eighth * {
+  color: white;
+}
+#eighth span{
+  display: inline-block;
+  padding:10pt;
+  padding-top: 2%;
+  font-weight: bold;
+  font-size: 20pt;
+  vertical-align: middle;
+}
+#eighth h6{
+  padding:10pt;
+}
